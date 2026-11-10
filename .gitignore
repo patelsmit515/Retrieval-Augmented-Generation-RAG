@@ -1,0 +1,50 @@
+# Environment variables & secrets (CRITICAL: Never commit these)
+.env
+.env*.local
+.env.production
+*.env
+!*.env.example
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Vector Database (Local ChromaDB storage contains large binary files)
+VectorDB/
+chroma/
+.chroma/
+*.sqlite3
+*.bin
+*.pickle
+
+# Large data files (> 100MB exceeds GitHub's upload limit)
+Red Dead Redemption 2 - The Complete Official Guide.pdf
+*.pdf.large
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
